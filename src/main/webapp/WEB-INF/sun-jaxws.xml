@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+    version="2.0">
+    <endpoint name="ProductServiceImpl"
+        implementation="com.restsoap.api.soap.services.impl.ProductWSSImpl"
+        url-pattern="/ws/product-services" />
+
+    <endpoint name="CategoryServiceImpl"
+        implementation="com.restsoap.api.soap.services.impl.CategoryWSSImpl"
+        url-pattern="/ws/category-services" />
+
+    <endpoint name="CartServiceImpl"
+        implementation="com.restsoap.api.soap.services.impl.CartWSSImpl"
+        url-pattern="/ws/cart-services" />
+
+    <endpoint name="UserServiceImpl"
+        implementation="com.restsoap.api.soap.services.impl.UserWSSImpl"
+        url-pattern="/ws/user-services" />
+</endpoints>

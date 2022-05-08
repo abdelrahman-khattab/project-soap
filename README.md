@@ -1,7 +1,7 @@
 # E-Commerce-soap
 ### Built-using-JAX-WS.
 
-## 📃 Documentation
+## 📝 Documentation
 📧[Postman RESTful API Docs](https://documenter.getpostman.com/view/7632032/UyxdL9Jc)
 
 ## 📦 Features
@@ -14,7 +14,7 @@
 * Tomcat 10.0
 * Postman
 
- ## 🛠 Run with Maven
+ ## 🚀 Run with Maven
     **Maven**
 * Change the configuration of Tomcat in `pom.xml`. 
 * Deploy the application using the following maven command:
